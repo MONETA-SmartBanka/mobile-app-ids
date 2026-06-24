@@ -13,11 +13,15 @@
     },
     "components": {
         "navigation_card": [
-            "root",
             "title",
             "description",
             "value",
             "trailing_icon"
+        ],
+        "toggle_card": [
+            "title",
+            "description",
+            "switch"
         ],
         "pin_button": [
             "number_button_",
@@ -29,7 +33,7 @@
             "savings_account_",
             "header_primary_btn",
             "header_tertiary_btn"
-        ]
+        ],
+        "button_group_item": []
     }
 }
-
