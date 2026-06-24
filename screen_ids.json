@@ -1,0 +1,84 @@
+{
+    "version": 1,
+    "meta": {
+        "naming": {
+            "prefix": "SB:"
+        },
+        "notes": [
+            "Keep IDs stable once released to Appium/UI tests.",
+            "Do not use localized text as an identifier.",
+            "If the screen already uses analytics, use its key as the ID.",
+            "Prefer one logical ID per important screen node.",
+            "Keep this file focused on screen-specific IDs; reusable components live in component_ids.json."
+        ]
+    },
+    "screens": {
+        "common": [
+            "btn_back"
+        ],
+        "entry": [
+            "root",
+            "background_root",
+            "btn_locator",
+            "btn_contacts",
+            "btn_about_smart_banka"
+        ],
+        "login": [
+            "root",
+            "btn_confirm"
+        ],
+        "chooseContext": [
+            "root"
+        ],
+        "dashboard": [
+            "root",
+            "btn_dashboard_section",
+            "btn_cards_section",
+            "btn_investments_section",
+            "btn_insurance_section",
+            "btn_dateio_section",
+            "btn_more_section",
+
+            "btn_smart_limit",
+            "btn_qr_login",
+            "btn_settings_profile",
+            "btn_toggle_balance",
+            "btn_notifications"
+        ],
+        "settings": [
+            "root",
+            "btn_logout_bottom",
+            "btn_logout_top",
+            "btn_card_limit",
+            "btn_payments_limit",
+            "btn_cvak_account",
+            "btn_about_me",
+            "btn_documents",
+            "btn_contact_pay",
+            "btn_profile_management",
+            "btn_identity_management",
+            "btn_qr_code_scanner",
+            "btn_panic_button",
+            "btn_change_pin",
+            "switch_biometric_login",
+            "switch_biometric_allow_transaction",
+            "switch_biometric_prefer_fingerprint",
+            "switch_hide_balances",
+            "btn_charity_with_smart_banka",
+            "btn_general_theme_management",
+            "switch_system_font_size",
+            "btn_language",
+            "btn_notifications",
+            "btn_password_recovery",
+            "btn_advance_settings",
+            "btn_smart_banka_information",
+            "btn_what_is_new_in_smart_banka",
+            "btn_active_devices",
+            "btn_connected_new_device",
+            "btn_multibanking",
+            "btn_different_bank"
+        ]
+    }
+}
+
+

@@ -1,0 +1,35 @@
+{
+    "version": 1,
+    "meta": {
+        "naming": {
+            "prefix": ""
+        },
+        "notes": [
+            "Use this file for reusable components shared across multiple screens/features.",
+            "Keep IDs stable once released to Appium/UI tests.",
+            "Name component groups after real Figma component.",
+            "If the component needs index, leave '_' at the end and map it dynamically later."
+        ]
+    },
+    "components": {
+        "navigation_card": [
+            "root",
+            "title",
+            "description",
+            "value",
+            "trailing_icon"
+        ],
+        "pin_button": [
+            "number_button_",
+            "delete_button",
+            "fingerprint_button"
+        ],
+        "dashboard_product": [
+            "regular_account_",
+            "savings_account_",
+            "header_primary_btn",
+            "header_tertiary_btn"
+        ]
+    }
+}
+

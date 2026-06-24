@@ -1,29 +1,64 @@
 # mobile-app-ids
 
-Shared source of truth for UI automation identifiers used across mobile platforms.
+Shared source of truth for UI tests and analytics identifiers used across mobile platforms.
 
 ## Files
 
-- `automation_screen_ids.json` — screen-specific identifiers
-- `automation_component_ids.json` — reusable component identifiers
+- `screen_ids.json` — screen-specific identifiers for test and analytics
+- `component_ids.json` — reusable component identifiers
 
 ## Files structure
 
 - each top-level group is an array of strings
 - each string is only a logical key
-- the final automation ID is composed automatically by the generator
+- the final IDs are composed automatically by the generator
 
-The resulting ID follows this rule:
+## Generated IDs
+
+### Screens
+
+For screens, the generator always creates the group ID itself:
 
 ```text
-<prefix><group>_<item>
+<prefix><group>
 ```
 
 Example:
 
 ```text
-sb_ + settings + _ + btn_logout_bottom
-= sb_settings_btn_logout_bottom
+SB: + smartbanka:settings
+= SB:smartbanka:settings
+```
+
+If the group contains items, the generator also creates item IDs without the screen prefix:
+
+```text
+<group>:<item>
+```
+
+Example:
+
+```text
+smartbanka:settings + : + btn_logout_bottom
+= smartbanka:settings:btn_logout_bottom
+```
+
+If the array is empty, only the group ID is generated.
+
+### Components
+
+For components, the generator behaves the same way, but usually without a prefix:
+
+```text
+<group>:<item>
+```
+
+Example:
+
+```text
+navigation_card
+navigation_card:title
+navigation_card:description
 ```
 
 ## Example: screen manifest
@@ -32,14 +67,12 @@ sb_ + settings + _ + btn_logout_bottom
 {
     "version": 1,
     "meta": {
-        "namespace": "sb",
         "naming": {
-            "prefix": "sb_"
+            "prefix": "SB:"
         }
     },
     "screens": {
-        "settings": [
-            "root",
+        "smartbanka:settings": [
             "btn_logout_bottom",
             "btn_card_limit",
             "btn_payments_limit",
@@ -50,20 +83,29 @@ sb_ + settings + _ + btn_logout_bottom
 }
 ```
 
+Generated IDs:
+
+```text
+SB:smartbanka:settings
+smartbanka:settings:btn_logout_bottom
+smartbanka:settings:btn_card_limit
+smartbanka:settings:btn_payments_limit
+smartbanka:settings:btn_cvak_account
+smartbanka:settings:btn_about_me
+```
+
 ## Example: component manifest
 
 ```json
 {
     "version": 1,
     "meta": {
-        "namespace": "sb",
         "naming": {
-            "prefix": "sb_"
+            "prefix": ""
         }
     },
     "components": {
         "navigation_card": [
-            "root",
             "title",
             "description",
             "value",
@@ -73,10 +115,22 @@ sb_ + settings + _ + btn_logout_bottom
 }
 ```
 
-## Conventions
+Generated IDs:
 
-- use the `sb_` prefix
-- use `snake_case`
+```text
+navigation_card
+navigation_card:title
+navigation_card:description
+navigation_card:value
+navigation_card:trailing_icon
+```
+
+## Conventions
+- screen IDs should be same as existing analytics IDs
+- use the `SB:` prefix for screens, no prefix for components
+- a group with an empty array still generates its own group ID
+- screen keys may use `:` for nested structure
+- use `snake_case` for item names
 - do not use visible text or localized strings as IDs
 - keep IDs stable once they are used by automated tests
 - duplicates are not allowed
