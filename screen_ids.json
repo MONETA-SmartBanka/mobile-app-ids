@@ -14,24 +14,26 @@
     },
     "screens": {
         "common": [
-            "btn_back"
-        ],
-        "entry": [
-            "root",
-            "background_root",
+            "btn_back",
             "btn_locator",
             "btn_contacts",
-            "btn_about_smart_banka"
+            "btn_about_smart_banka",
+            "btn_change_language"
+        ],
+        "entry": [
+            "background_root"
+        ],
+        "entry_dashboard": [
+            "btn_login",
+            "btn_try_smart_banka",
+            "btn_continue_with_qr",
+            "btn_scan_qr"
         ],
         "login": [
-            "root",
             "btn_confirm"
         ],
-        "chooseContext": [
-            "root"
-        ],
+        "choose_context": [],
         "dashboard": [
-            "root",
             "btn_dashboard_section",
             "btn_cards_section",
             "btn_investments_section",
@@ -45,8 +47,7 @@
             "btn_toggle_balance",
             "btn_notifications"
         ],
-        "settings": [
-            "root",
+        "smartbanka:settings": [
             "btn_logout_bottom",
             "btn_logout_top",
             "btn_card_limit",
@@ -77,8 +78,7 @@
             "btn_connected_new_device",
             "btn_multibanking",
             "btn_different_bank"
-        ]
+        ],
+        "settings:limits": []
     }
 }
-
-
