@@ -13,13 +13,6 @@
         ]
     },
     "screens": {
-        "common": [
-            "btn_back",
-            "btn_locator",
-            "btn_contacts",
-            "btn_about_smart_banka",
-            "btn_change_language"
-        ],
         "entry": [
             "background_root"
         ],
@@ -79,6 +72,53 @@
             "btn_multibanking",
             "btn_different_bank"
         ],
-        "settings:limits": []
+        "settings:limits": [],
+        "payments:new_payment": [
+            "btn_qr_payment",
+            "btn_scan_account_number",
+            "btn_contacts",
+            "btn_templates",
+            "tab_section_domestic",
+            "tab_section_contact_payment",
+            "tab_section_foreign",
+            "tab_section_standing_order",
+            "tab_section_direct_debit"
+        ],
+        "payments:domestic": [
+            "account_input",
+            "amount_input",
+            "date_select",
+            "variable_symbol_input",
+            "rate_input",
+            "category_select",
+            "more_options_btn",
+            "specific_symbol_input",
+            "constant_symbol_input",
+            "note_for_me_input",
+            "note_for_recipient_input",
+            "continue_btn"
+        ],
+        "payments:check_details": [
+            "tab_source_account",
+            "tab_recipient_account",
+            "tab_amount",
+            "tab_due_date",
+            "tab_category",
+            "tab_variable_symbol",
+            "tab_specific_symbol",
+            "tab_constant_symbol",
+            "tab_note_for_me",
+            "tab_note_for_recipient",
+            "tab_sign_right",
+            "primary_btn_pay",
+            "primary_btn_sign",
+            "secondary_btn_back"
+        ],
+        "payments:payment_successful": [
+            "btn_back_to_dashboard",
+            "btn_new_payment",
+            "btn_save_as_template"
+        ],
+        "payments:foreign_order_details": []
     }
 }
