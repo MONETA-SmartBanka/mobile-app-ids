@@ -16,11 +16,30 @@
         "entry": [
             "background_root"
         ],
-        "entry_dashboard": [
+        "entry_dashboard:welcome_to_sb": [
             "btn_login",
             "btn_try_smart_banka",
             "btn_continue_with_qr",
             "btn_scan_qr"
+        ],
+        "entry_dashboard:login": [
+            "btn_QR_find",
+            "btn_QR_SB",
+            "btn_documents",
+            "btn_QR_IB",
+            "btn_no_account"
+        ],
+        "scan_pair_code": [
+            "btn_message_with_code_entry",
+            "btn_QR_find",
+            "btn_upload_image"
+        ],
+        "entry:biometric_dialog_activation": [
+            "btn_yes",
+            "btn_no"
+        ],
+        "entry:pin_activation": [
+            "dialog_pin_error"
         ],
         "login": [
             "btn_confirm"
@@ -39,6 +58,11 @@
             "btn_settings_profile",
             "btn_toggle_balance",
             "btn_notifications"
+        ],
+        "news": [
+            "btn_try",
+            "btn_previous",
+            "card_"
         ],
         "smartbanka:settings": [
             "btn_logout_bottom",
@@ -111,14 +135,25 @@
             "tab_note_for_recipient",
             "tab_sign_right",
             "primary_btn_pay",
-            "primary_btn_sign",
-            "secondary_btn_back"
+            "primary_btn_sign"
         ],
         "payments:payment_successful": [
             "btn_back_to_dashboard",
             "btn_new_payment",
             "btn_save_as_template"
         ],
-        "payments:foreign_order_details": []
+        "payments:foreign_order_details": [],
+
+        "victory:success": [],
+        "victory:wait": [],
+        "victory:error": [],
+        "victory:stop": [],
+        "victory:card": [],
+        "victory:agreement": [],
+        "victory:branch": [],
+        "victory:internet_bank": [],
+        "victory:loading": [],
+        "victory:custom": [],
+        "victory:generic_error": []
     }
 }

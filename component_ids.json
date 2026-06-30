@@ -21,7 +21,9 @@
             "primary_btn",
             "secondary_btn",
             "btn_close",
-            "btn_cancel"
+            "btn_cancel",
+            "btn_ok",
+            "btn_continue"
         ],
         "navigation_card": [
             "title",
@@ -45,6 +47,13 @@
             "header_primary_btn",
             "header_tertiary_btn"
         ],
-        "button_group_item": []
+        "button_group_item": [],
+        "outlined_text_field": [
+            "text_field_"
+        ],
+        "pagination": [
+            "next",
+            "previous"
+        ]
     }
 }
