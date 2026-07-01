@@ -131,6 +131,7 @@ navigation_card:trailing_icon
 - a group with an empty array still generates its own group ID
 - screen keys may use `:` for nested structure
 - use `snake_case` for item names
+- when you need a dynamic ID, the logical key may end with `_` (for example `transaction_card_`) and the runtime value can be then appended in code as `transaction_card_123456`
 - do not use visible text or localized strings as IDs
 - keep IDs stable once they are used by automated tests
 - duplicates are not allowed

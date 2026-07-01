@@ -54,6 +54,13 @@
         "pagination": [
             "next",
             "previous"
-        ]
+        ],
+        "search_bar": [
+            "text_field",
+            "btn_clear",
+            "btn_cancel",
+            "btn_filter"
+        ],
+        "envelope": []
     }
 }

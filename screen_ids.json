@@ -144,6 +144,40 @@
         ],
         "payments:foreign_order_details": [],
 
+        "transactions_history": [
+            "header_label",
+            "header_btn_category_graph",
+            "search_field",
+            "btn_pay",
+            "btn_qr_payment",
+            "btn_pay_me",
+            "btn_more",
+            "btn_deposit",
+            "btn_withdraw",
+            "btn_invest",
+            "filter_btn_all",
+            "filter_btn_incoming",
+            "filter_btn_outgoing",
+            "filter_btn_blocking",
+            "filter_btn_entered",
+            "filter_btn_future",
+            "transaction_card_",
+
+            "btn_edit_envelope",
+            "btn_create_envelope"
+        ],
+        "transaction_detail": [
+            "btn_repeat_payment",
+            "btn_create_template",
+            "btn_payment_overview",
+            "btn_view_confirmation",
+            "btn_create_standing_order",
+            "btn_return_payment",
+            "btn_delete_payment",
+            "btn_dispute_payment",
+            "btn_more"
+        ],
+
         "victory:success": [],
         "victory:wait": [],
         "victory:error": [],
