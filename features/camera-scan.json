@@ -1,0 +1,21 @@
+{
+    "version": 1,
+    "meta": {
+        "naming": {
+            "prefix": "SB:"
+        },
+        "notes": [
+            "Keep IDs stable once released to Appium/UI tests.",
+            "Do not use localized text as an identifier.",
+            "If the screen already uses analytics, use its key as the ID.",
+            "Prefer one logical ID per important screen node."
+        ]
+    },
+    "screens": {
+        "scan_pair_code": [
+            "message_find_qr",
+            "btn_upload_image",
+            "btn_code_input"
+        ]
+    }
+}

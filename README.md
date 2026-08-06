@@ -4,8 +4,8 @@ Shared source of truth for UI tests and analytics identifiers used across mobile
 
 ## Files
 
-- `screen_ids.json` — screen-specific identifiers for test and analytics
-- `component_ids.json` — reusable component identifiers
+- `components/*.json` — reusable component identifiers
+- `features/*.json` — feature/screen-specific identifiers for test and analytics
 
 ## Files structure
 
@@ -61,7 +61,7 @@ navigation_card:title
 navigation_card:description
 ```
 
-## Example: screen manifest
+## Example: feature manifest
 
 ```json
 {
@@ -136,6 +136,8 @@ navigation_card:trailing_icon
 - keep IDs stable once they are used by automated tests
 - duplicates are not allowed
 - component groups should match real reusable UI components
+- split shared component manifests under `components/` by logical ownership if it improves reviewability
+- split feature manifests under `features/` by file name
 
 ## Platform-specific integration
 

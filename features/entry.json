@@ -1,0 +1,43 @@
+{
+    "version": 1,
+    "meta": {
+        "naming": {
+            "prefix": "SB:"
+        },
+        "notes": [
+            "Keep IDs stable once released to Appium/UI tests.",
+            "Do not use localized text as an identifier.",
+            "If the screen already uses analytics, use its key as the ID.",
+            "Prefer one logical ID per important screen node."
+        ]
+    },
+    "screens": {
+        "entry_dashboard:welcome_to_sb": [
+            "btn_connect",
+            "btn_create_account",
+            "btn_load_qr",
+            "header_btn_scan_qr"
+        ],
+        "entry_dashboard:connect": [
+            "btn_how_sb",
+            "btn_how_ib",
+            "btn_how_documents",
+            "btn_load_qr",
+            "btn_no_account_yet"
+        ],
+        "entry_dashboard:connect:sb": [
+            "btn_qr"
+        ],
+        "entry:biometric_dialog_activation": [
+            "btn_yes",
+            "btn_no"
+        ],
+        "entry:pin_activation": [
+            "dialog_pin_error"
+        ],
+        "login": [
+            "btn_confirm"
+        ],
+        "choose_context": []
+    }
+}

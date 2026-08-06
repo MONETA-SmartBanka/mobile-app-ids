@@ -5,27 +5,13 @@
             "prefix": ""
         },
         "notes": [
-            "Use this file for reusable components shared across multiple screens/features.",
+            "Use this file for reusable design-system components shared across multiple screens/features.",
             "Keep IDs stable once released to Appium/UI tests.",
             "Name component groups after real Figma component.",
             "If the component needs index, leave '_' at the end and map it dynamically later."
         ]
     },
     "components": {
-        "common": [
-            "btn_back",
-            "btn_branches",
-            "btn_contacts",
-            "btn_about_smart_banka",
-            "btn_change_language",
-            "primary_btn",
-            "secondary_btn",
-            "btn_close",
-            "btn_cancel",
-            "btn_ok",
-            "btn_continue",
-            "btn_header_info"
-        ],
         "navigation_card": [
             "title",
             "description",
