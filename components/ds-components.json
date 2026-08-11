@@ -14,10 +14,36 @@
     "components": {
         "alert": [],
         "avatar": [],
+        "input_validation": [],
         "amount_input": [
             "value"
         ],
-        "input_validation": [],
+        "account_input": [
+            "value_prefix",
+            "value_number",
+            "value_bank_core",
+            "btn_bank"
+        ],
+        "phone_input": [
+            "value_prefix",
+            "value_number",
+            "btn_contacts"
+        ],
+        "select_input": [],
+        "stepper_input": [
+            "value",
+            "btn_minus",
+            "btn_plus"
+        ],
+        "text_input": [
+            "value"
+        ],
+        "text_area_input": [
+            "value"
+        ],
+        "toggle_input": [
+            "btn_toggle"
+        ],
 
         "navigation_card": [
             "title",
