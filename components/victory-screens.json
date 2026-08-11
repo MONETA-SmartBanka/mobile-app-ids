@@ -1,0 +1,27 @@
+{
+    "version": 1,
+    "meta": {
+        "naming": {
+            "prefix": ""
+        },
+        "notes": [
+            "Use this file for reusable common button across multiple screens/features.",
+            "Keep IDs stable once released to Appium/UI tests."
+        ]
+    },
+    "components": {
+        "victory": [
+            "success",
+            "wait",
+            "error",
+            "stop",
+            "card",
+            "agreement",
+            "branch",
+            "internet_bank",
+            "loading",
+            "custom",
+            "generic_error"
+        ]
+    }
+}
