@@ -52,22 +52,12 @@
             "primary_btn_pay",
             "primary_btn_sign"
         ],
-        "payments:payment_successful": [
+        "payments:victory": [
             "btn_back_to_dashboard",
             "btn_new_payment",
             "btn_save_as_template"
         ],
-        "payments:foreign_order_details": [],
-        "victory:success": [],
-        "victory:wait": [],
-        "victory:error": [],
-        "victory:stop": [],
-        "victory:card": [],
-        "victory:agreement": [],
-        "victory:branch": [],
-        "victory:internet_bank": [],
-        "victory:loading": [],
-        "victory:custom": [],
-        "victory:generic_error": []
+        "payments:payment_successful": [],
+        "payments:foreign_order_details": []
     }
 }
