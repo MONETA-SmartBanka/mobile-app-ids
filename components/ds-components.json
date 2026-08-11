@@ -13,6 +13,7 @@
     },
     "components": {
         "alert": [],
+        "avatar": [],
 
         "navigation_card": [
             "title",
