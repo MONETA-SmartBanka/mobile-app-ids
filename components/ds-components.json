@@ -12,6 +12,8 @@
         ]
     },
     "components": {
+        "alert": [],
+
         "navigation_card": [
             "title",
             "description",
