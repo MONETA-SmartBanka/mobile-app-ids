@@ -38,8 +38,8 @@
         "dashboard_product": [
             "regular_account_",
             "savings_account_",
-            "header_primary_btn",
-            "header_tertiary_btn"
+            "header_primary_btn_",
+            "header_tertiary_btn_"
         ],
         "button_group_item": [],
         "outlined_text_field": [
