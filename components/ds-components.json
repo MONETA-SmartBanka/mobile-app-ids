@@ -44,6 +44,7 @@
         "toggle_input": [
             "btn_toggle"
         ],
+        "badge": [],
 
         "navigation_card": [
             "title",
