@@ -85,6 +85,10 @@
             "cell_month_",
             "cell_year_"
         ],
+        "camera": [
+            "btn_capture",
+            "btn_load_image"
+        ],
 
 
         "navigation_card": [
