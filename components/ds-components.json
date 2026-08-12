@@ -89,6 +89,10 @@
             "btn_capture",
             "btn_load_image"
         ],
+        "card_view": [
+            "btn_show_or_hide",
+            "btn_rename"
+        ],
 
 
         "navigation_card": [
