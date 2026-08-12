@@ -45,6 +45,38 @@
             "btn_toggle"
         ],
         "badge": [],
+        "button": [
+            "primary",
+            "secondary",
+            "tertiary",
+
+            "large_primary",
+            "small_primary",
+            "large_secondary",
+            "small_secondary",
+            "large_tertiary",
+            "small_tertiary",
+            "large_transparent",
+            "small_transparent",
+            "large_destructive_primary",
+            "small_destructive_primary",
+            "large_destructive_secondary",
+            "small_destructive_secondary",
+            "large_destructive_tertiary",
+            "small_destructive_tertiary",
+            "large_destructive_transparent",
+            "small_destructive_transparent",
+            "cell_accent",
+
+            "header_simple",
+            "header_icon_check"
+        ],
+        "button_group_item": [
+            "primary",
+            "secondary",
+            "destructive"
+        ],
+
 
         "navigation_card": [
             "title",
@@ -68,7 +100,6 @@
             "header_primary_btn_",
             "header_tertiary_btn_"
         ],
-        "button_group_item": [],
         "outlined_text_field": [
             "text_field_"
         ],
