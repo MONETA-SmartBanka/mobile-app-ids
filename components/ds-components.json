@@ -76,6 +76,15 @@
             "secondary",
             "destructive"
         ],
+        "calendar": [
+            "btn_prev",
+            "btn_selector",
+            "btn_next",
+            "cell_weekday_index_",
+            "cell_day_",
+            "cell_month_",
+            "cell_year_"
+        ],
 
 
         "navigation_card": [
