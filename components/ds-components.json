@@ -96,11 +96,12 @@
         "pie_chart": [],
         "worm_chart": [],
         "content_group": [],
-        "dashboard_product_": [
+        "dashboard_product": [
             "btn_action_primary_",
             "btn_action_secondary_",
             "btn_add_envelope_"
         ],
+        "draggable_card": [],
 
         "navigation_card": [
             "btn_icon"
