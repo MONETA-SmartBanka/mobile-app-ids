@@ -143,6 +143,10 @@
         "radio_checkbox_card": [],
         "salespoint": [],
         "section_header": [],
+        "slider": [
+            "btn_edit",
+            "value"
+        ],
 
         "toggle_card": [
             "title",
