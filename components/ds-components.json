@@ -141,6 +141,7 @@
             "action_expand"
         ],
         "radio_checkbox_card": [],
+        "salespoint": [],
 
         "toggle_card": [
             "title",
