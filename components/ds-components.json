@@ -104,6 +104,7 @@
         "draggable_card": [],
         "empty_placeholder": [],
         "envelope": [],
+        "footer": [],
 
         "navigation_card": [
             "btn_icon"
