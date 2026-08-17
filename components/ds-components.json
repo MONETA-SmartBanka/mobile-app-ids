@@ -111,10 +111,11 @@
             "vertical"
         ],
         "navigation_button": [],
-
         "navigation_card": [
             "btn_icon"
         ],
+        "navigation_image": [],
+
         "toggle_card": [
             "title",
             "description",
