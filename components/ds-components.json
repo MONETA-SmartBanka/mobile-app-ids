@@ -147,6 +147,9 @@
             "btn_edit",
             "value"
         ],
+        "slider_button": [
+            "draggable_button"
+        ],
 
         "toggle_card": [
             "title",
