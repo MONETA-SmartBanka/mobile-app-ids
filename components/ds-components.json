@@ -124,6 +124,12 @@
             "action_previous",
             "action_next"
         ],
+        "pill": [
+            "type_standard_",
+            "type_underline_",
+            "type_button_",
+            "type_avatar_"
+        ],
 
         "toggle_card": [
             "title",
