@@ -130,6 +130,11 @@
             "type_button_",
             "type_avatar_"
         ],
+        "product_info": [
+            "action_copy_number",
+            "action_change_name",
+            "action_expand"
+        ],
 
         "toggle_card": [
             "title",
