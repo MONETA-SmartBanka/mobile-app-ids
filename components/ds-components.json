@@ -102,12 +102,8 @@
             "btn_add_envelope_"
         ],
 
-
         "navigation_card": [
-            "title",
-            "description",
-            "value",
-            "trailing_icon"
+            "btn_icon"
         ],
         "toggle_card": [
             "title",
