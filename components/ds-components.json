@@ -103,6 +103,7 @@
         ],
         "draggable_card": [],
         "empty_placeholder": [],
+        "envelope": [],
 
         "navigation_card": [
             "btn_icon"
@@ -130,7 +131,6 @@
             "btn_cancel",
             "btn_filter"
         ],
-        "video_player": [],
-        "envelope": []
+        "video_player": []
     }
 }
