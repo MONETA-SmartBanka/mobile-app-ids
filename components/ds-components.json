@@ -120,6 +120,10 @@
             "action_button_page_up",
             "action_button_page_down"
         ],
+        "pagination": [
+            "action_previous",
+            "action_next"
+        ],
 
         "toggle_card": [
             "title",
@@ -133,10 +137,6 @@
         ],
         "outlined_text_field": [
             "text_field_"
-        ],
-        "pagination": [
-            "next",
-            "previous"
         ],
         "search_bar": [
             "text_field",
