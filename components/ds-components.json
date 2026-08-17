@@ -66,10 +66,7 @@
             "small_destructive_tertiary",
             "large_destructive_transparent",
             "small_destructive_transparent",
-            "cell_accent",
-
-            "header_simple",
-            "header_icon_check"
+            "cell_accent"
         ],
         "button_group_item": [
             "primary",
@@ -116,6 +113,13 @@
         ],
         "navigation_image": [],
         "page_description": [],
+        "page_header": [
+            "button_label",
+            "action_button_check",
+            "action_button_simple",
+            "action_button_page_up",
+            "action_button_page_down"
+        ],
 
         "toggle_card": [
             "title",
