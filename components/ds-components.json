@@ -130,21 +130,22 @@
             "type_button_",
             "type_avatar_"
         ],
+        "pin_button": [
+            "number_button_",
+            "delete_button",
+            "fingerprint_button"
+        ],
         "product_info": [
             "action_copy_number",
             "action_change_name",
             "action_expand"
         ],
+        "radio_checkbox_card": [],
 
         "toggle_card": [
             "title",
             "description",
             "switch"
-        ],
-        "pin_button": [
-            "number_button_",
-            "delete_button",
-            "fingerprint_button"
         ],
         "outlined_text_field": [
             "text_field_"
