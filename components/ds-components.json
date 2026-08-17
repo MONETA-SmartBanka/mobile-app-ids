@@ -93,6 +93,14 @@
             "btn_show_or_hide",
             "btn_rename"
         ],
+        "pie_chart": [],
+        "worm_chart": [],
+        "content_group": [],
+        "dashboard_product_": [
+            "btn_action_primary_",
+            "btn_action_secondary_",
+            "btn_add_envelope_"
+        ],
 
 
         "navigation_card": [
@@ -110,12 +118,6 @@
             "number_button_",
             "delete_button",
             "fingerprint_button"
-        ],
-        "dashboard_product": [
-            "regular_account_",
-            "savings_account_",
-            "header_primary_btn_",
-            "header_tertiary_btn_"
         ],
         "outlined_text_field": [
             "text_field_"
