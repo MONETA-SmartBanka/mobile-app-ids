@@ -159,12 +159,10 @@
         "text_salespoint": [],
         "time_picker": [],
         "timer": [],
-
         "toggle_card": [
-            "title",
-            "description",
-            "switch"
+            "btn_toggle"
         ],
+
         "outlined_text_field": [
             "text_field_"
         ],
