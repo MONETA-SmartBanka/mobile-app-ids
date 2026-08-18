@@ -5,7 +5,7 @@
             "prefix": ""
         },
         "notes": [
-            "Use this file for reusable common button across multiple screens/features.",
+            "Use this file just for Victory Screens",
             "Keep IDs stable once released to Appium/UI tests."
         ]
     },

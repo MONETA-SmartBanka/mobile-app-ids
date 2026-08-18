@@ -162,6 +162,9 @@
         "toggle_card": [
             "btn_toggle"
         ],
+        "transaction_card": [
+            "end_button"
+        ],
 
         "outlined_text_field": [
             "text_field_"
