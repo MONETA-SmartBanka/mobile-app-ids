@@ -150,6 +150,11 @@
         "slider_button": [
             "draggable_button"
         ],
+        "table_row": [
+            "type_classic",
+            "type_light",
+            "type_vertical"
+        ],
 
         "toggle_card": [
             "title",
