@@ -157,6 +157,8 @@
         ],
         "tab": [],
         "text_salespoint": [],
+        "time_picker": [],
+        "timer": [],
 
         "toggle_card": [
             "title",
