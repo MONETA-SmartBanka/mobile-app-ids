@@ -49,7 +49,6 @@
             "primary",
             "secondary",
             "tertiary",
-
             "large_primary",
             "small_primary",
             "large_secondary",
@@ -165,7 +164,6 @@
         "transaction_card": [
             "end_button"
         ],
-
         "outlined_text_field": [
             "text_field_"
         ],
