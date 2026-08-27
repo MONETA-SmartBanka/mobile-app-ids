@@ -12,35 +12,160 @@
         ]
     },
     "components": {
-        "navigation_card": [
-            "title",
-            "description",
-            "value",
-            "trailing_icon"
+        "alert": [],
+        "avatar": [],
+        "input_validation": [],
+        "amount_input": [
+            "value"
         ],
-        "toggle_card": [
-            "title",
-            "description",
-            "switch"
+        "account_input": [
+            "value_prefix",
+            "value_number",
+            "value_bank_core",
+            "btn_bank"
+        ],
+        "phone_input": [
+            "value_prefix",
+            "value_number",
+            "btn_contacts"
+        ],
+        "select_input": [],
+        "stepper_input": [
+            "value",
+            "btn_minus",
+            "btn_plus"
+        ],
+        "text_input": [
+            "value"
+        ],
+        "text_area_input": [
+            "value"
+        ],
+        "toggle_input": [
+            "btn_toggle"
+        ],
+        "badge": [],
+        "button": [
+            "primary",
+            "secondary",
+            "tertiary",
+            "large_primary",
+            "small_primary",
+            "large_secondary",
+            "small_secondary",
+            "large_tertiary",
+            "small_tertiary",
+            "large_transparent",
+            "small_transparent",
+            "large_destructive_primary",
+            "small_destructive_primary",
+            "large_destructive_secondary",
+            "small_destructive_secondary",
+            "large_destructive_tertiary",
+            "small_destructive_tertiary",
+            "large_destructive_transparent",
+            "small_destructive_transparent",
+            "cell_accent"
+        ],
+        "button_group_item": [
+            "primary",
+            "secondary",
+            "destructive"
+        ],
+        "calendar": [
+            "btn_prev",
+            "btn_selector",
+            "btn_next",
+            "cell_weekday_index_",
+            "cell_day_",
+            "cell_month_",
+            "cell_year_"
+        ],
+        "camera": [
+            "btn_capture",
+            "btn_load_image"
+        ],
+        "card_view": [
+            "btn_show_or_hide",
+            "btn_rename"
+        ],
+        "pie_chart": [],
+        "worm_chart": [],
+        "content_group": [],
+        "dashboard_product": [
+            "btn_action_primary_",
+            "btn_action_secondary_",
+            "btn_add_envelope_"
+        ],
+        "draggable_card": [],
+        "empty_placeholder": [],
+        "envelope": [],
+        "footer": [],
+        "message": [],
+        "multi_button": [
+            "horizontal",
+            "vertical"
+        ],
+        "navigation_button": [],
+        "navigation_card": [
+            "btn_icon"
+        ],
+        "navigation_image": [],
+        "page_description": [],
+        "page_header": [
+            "button_label",
+            "action_button_check",
+            "action_button_simple",
+            "action_button_page_up",
+            "action_button_page_down"
+        ],
+        "pagination": [
+            "action_previous",
+            "action_next"
+        ],
+        "pill": [
+            "type_standard_",
+            "type_underline_",
+            "type_button_",
+            "type_avatar_"
         ],
         "pin_button": [
             "number_button_",
             "delete_button",
             "fingerprint_button"
         ],
-        "dashboard_product": [
-            "regular_account_",
-            "savings_account_",
-            "header_primary_btn_",
-            "header_tertiary_btn_"
+        "product_info": [
+            "action_copy_number",
+            "action_change_name",
+            "action_expand"
         ],
-        "button_group_item": [],
+        "radio_checkbox_card": [],
+        "salespoint": [],
+        "section_header": [],
+        "slider": [
+            "btn_edit",
+            "value"
+        ],
+        "slider_button": [
+            "draggable_button"
+        ],
+        "table_row": [
+            "type_classic",
+            "type_light",
+            "type_vertical"
+        ],
+        "tab": [],
+        "text_salespoint": [],
+        "time_picker": [],
+        "timer": [],
+        "toggle_card": [
+            "btn_toggle"
+        ],
+        "transaction_card": [
+            "end_button"
+        ],
         "outlined_text_field": [
             "text_field_"
-        ],
-        "pagination": [
-            "next",
-            "previous"
         ],
         "search_bar": [
             "text_field",
@@ -48,7 +173,6 @@
             "btn_cancel",
             "btn_filter"
         ],
-        "video_player": [],
-        "envelope": []
+        "video_player": []
     }
 }

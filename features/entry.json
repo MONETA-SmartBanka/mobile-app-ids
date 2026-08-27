@@ -35,9 +35,7 @@
         "entry:pin_activation": [
             "dialog_pin_error"
         ],
-        "login": [
-            "btn_confirm"
-        ],
+        "login": [],
         "choose_context": []
     }
 }
