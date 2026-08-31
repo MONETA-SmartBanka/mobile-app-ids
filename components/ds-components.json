@@ -76,7 +76,8 @@
         "button_group_item": [
             "primary",
             "secondary",
-            "destructive"
+            "destructive",
+            "child"
         ],
         "calendar": [
             "btn_prev",
