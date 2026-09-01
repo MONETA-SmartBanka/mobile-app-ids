@@ -149,6 +149,9 @@
         "slider_button": [
             "draggable_button"
         ],
+        "smileys": [
+            "button_grade_"
+        ],
         "table_row": [
             "type_classic",
             "type_light",
