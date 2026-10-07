@@ -24,6 +24,7 @@
             "value_bank_core",
             "btn_bank"
         ],
+        "insight": [],
         "phone_input": [
             "value_prefix",
             "value_number",
