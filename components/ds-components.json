@@ -24,6 +24,7 @@
             "value_bank_core",
             "btn_bank"
         ],
+        "action_card": [],
         "phone_input": [
             "value_prefix",
             "value_number",
@@ -156,7 +157,7 @@
         "slider_button": [
             "draggable_button"
         ],
-        "smileys": [
+        "grade": [
             "button_grade_"
         ],
         "table_row": [
