@@ -24,6 +24,7 @@
             "value_bank_core",
             "btn_bank"
         ],
+        "action_card": [],
         "phone_input": [
             "value_prefix",
             "value_number",
