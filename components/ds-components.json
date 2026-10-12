@@ -99,6 +99,15 @@
             "btn_rename"
         ],
         "pie_chart": [],
+        "category_breakdown_chart": [
+            "btn_top_left",
+            "btn_top_right",
+            "btn_previous",
+            "btn_next",
+            "btn_compare",
+            "segment_",
+            "center"
+        ],
         "worm_chart": [],
         "content_group": [],
         "dashboard_product": [
