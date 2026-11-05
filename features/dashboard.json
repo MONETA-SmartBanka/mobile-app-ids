@@ -55,7 +55,10 @@
             "btn_return_payment",
             "btn_delete_payment",
             "btn_dispute_payment",
-            "btn_more"
+            "btn_more",
+            "btn_payment_return_request",
+            "btn_payment_id_request",
+            "msg_payment_return_state"
         ]
     }
 }
