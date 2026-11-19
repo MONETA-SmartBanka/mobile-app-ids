@@ -1,0 +1,44 @@
+{
+    "version": 1,
+    "meta": {
+        "naming": {
+            "prefix": "SB:"
+        }
+    },
+    "screens": {
+        "payment_return:intro": [
+            "row_fee",
+            "btn_continue"
+        ],
+        "payment_return:low_amount": [],
+        "payment_return:too_early": [],
+        "payment_return:already_requested": [],
+        "payment_return:victory": [],
+        "payment_return:info": [
+            "btn_primary",
+            "btn_secondary"
+        ],
+        "payment_return:account": [
+            "input_account",
+            "btn_with_attachment",
+            "btn_without_attachment"
+        ],
+        "payment_return:upload": [
+            "btn_upload",
+            "btn_continue"
+        ],
+        "payment_return:contacts": [
+            "toggle_share",
+            "input_name",
+            "input_phone_email",
+            "input_street",
+            "input_city_zip",
+            "btn_continue"
+        ],
+        "payment_return:summary": [
+            "row_fee",
+            "toggle_declaration",
+            "btn_continue"
+        ]
+    }
+}
