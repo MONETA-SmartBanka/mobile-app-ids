@@ -44,6 +44,10 @@
             "btn_multibanking",
             "btn_different_bank"
         ],
-        "settings:limits": []
+        "settings:limits": [],
+        "change_pin:current": [],
+        "change_pin": [],
+        "change_pin:confirm": [],
+        "pin_change:victory": []
     }
 }
