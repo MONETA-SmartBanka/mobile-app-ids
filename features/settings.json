@@ -44,6 +44,20 @@
             "btn_multibanking",
             "btn_different_bank"
         ],
-        "settings:limits": []
+        "settings:limits": [],
+        "smartbanka:appearance": [
+            "btn_language",
+            "btn_reorder_products",
+            "btn_color_theme",
+            "switch_round_balances",
+            "switch_system_font_size",
+            "switch_animations"
+        ],
+        "smartbanka:appearance:theme": [
+            "radio_system",
+            "radio_light",
+            "radio_dark",
+            "btn_confirm"
+        ]
     }
 }
