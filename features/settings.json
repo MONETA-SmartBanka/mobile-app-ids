@@ -24,14 +24,18 @@
             "btn_profile_management",
             "btn_identity_management",
             "btn_qr_code_scanner",
+            "btn_developer",
             "btn_panic_button",
             "btn_change_pin",
             "switch_biometric_login",
             "switch_biometric_allow_transaction",
             "switch_biometric_prefer_fingerprint",
+            "switch_biometric_auto_confirm",
             "switch_hide_balances",
             "btn_charity_with_smart_banka",
             "btn_general_theme_management",
+            "btn_app_icon_management",
+            "switch_balance_rounding",
             "switch_system_font_size",
             "btn_language",
             "btn_notifications",
@@ -44,6 +48,22 @@
             "btn_multibanking",
             "btn_different_bank"
         ],
-        "settings:limits": []
+        "settings:limits": [],
+        "my_settings:contact_information:overview": [
+            "btn_contact_address"
+        ],
+        "my_settings:contact_information:address_edit": [
+            "switch_same_as_permanent",
+            "input_street",
+            "input_descriptive_number",
+            "input_orientation_number",
+            "input_town",
+            "input_zip",
+            "input_country",
+            "btn_save"
+        ],
+        "my_settings:contact_information:address_victory": [
+            "btn_done"
+        ]
     }
 }
