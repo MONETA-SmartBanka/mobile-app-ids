@@ -145,7 +145,8 @@
             "action_button_check",
             "action_button_simple",
             "action_button_page_up",
-            "action_button_page_down"
+            "action_button_page_down",
+            "action_button_context_menu"
         ],
         "pagination": [
             "action_previous",
