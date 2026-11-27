@@ -1,0 +1,62 @@
+{
+    "version": 1,
+    "meta": {
+        "naming": {
+            "prefix": "SB:"
+        },
+        "notes": [
+            "Keep IDs stable once released to Appium/UI tests.",
+            "Do not use localized text as an identifier.",
+            "If the screen already uses analytics, use its key as the ID.",
+            "Prefer one logical ID per important screen node."
+        ]
+    },
+    "screens": {
+        "more_bottom_sheet_universal": [
+            "btn_statements",
+            "btn_account_confirmation",
+            "btn_transactions_history",
+            "btn_cvak",
+            "btn_cancel_account",
+            "btn_charts_and_categories",
+            "btn_withdrawal",
+            "btn_payment",
+            "btn_qr_payment",
+            "toggle_compact_view",
+            "toggle_expenses_comparison"
+        ],
+        "more_bottom_sheet_regular": [
+            "btn_pay_me",
+            "card_activate_gold",
+            "btn_contact_payment",
+            "message_contact_payment_tooltip",
+            "btn_new_debit_card",
+            "btn_second_card",
+            "btn_account_cards",
+            "btn_exchange",
+            "btn_templates",
+            "btn_standing_orders",
+            "btn_direct_debit",
+            "btn_credit_top_up",
+            "btn_change_to_tomplus",
+            "btn_transfer_to_moneta"
+        ],
+        "more_bottom_sheet_savings": [
+            "btn_change_type",
+            "btn_envelopes",
+            "btn_interest_rate_detail"
+        ],
+        "more_bottom_sheet_deposit": [
+            "btn_deposit_money",
+            "btn_withdraw_money"
+        ],
+        "more_bottom_sheet_dip": [
+            "btn_interest_rate_detail",
+            "btn_withdrawal_money",
+            "btn_pay_me",
+            "btn_templates",
+            "btn_standing_orders",
+            "btn_deposit_money"
+        ]
+    }
+}
